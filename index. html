@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>معرض أعمالي - مناهل بابكر محمد</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --text-color: #1e293b;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #1e40af, var(--primary-color));
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 900px;
+            margin: -30px auto 40px auto;
+            padding: 0 20px;
+        }
+        section {
+            background: var(--card-bg);
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background: #e0f2fe;
+            color: #0369a1;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .project-card {
+            border: 1px solid #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.05);
+        }
+        .btn {
+            display: inline-block;
+            background: var(--primary-color);
+            color: white;
+            padding: 8px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #1d4ed8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مرحباً، أنا مناهل بابكر محمد</h1>
+        <p>متخصصة في تقنية المعلومات، الشبكات، الأمن السيبراني، وتطوير الأنظمة</p>
+    </header>
+
+    <div class="container">
+        <!-- نبذة تعريفية -->
+        <section>
+            <h2>عني</h2>
+            <p>أهلاً بك في معرض أعمالي. أنا طالبة تكنولوجيا معلومات أؤمن بقوة التكنولوجيا في حل المشكلات الواقعية. إلى جانب شغفي بالشبكات، الأمن السيبراني، وتطوير الأنظمة، أمتلك روحاً عالية للعمل الجماعي ولدي تجارب غنية في العمل التطوعي كمتطوعة في <strong>الهلال الأحمر السوداني</strong> و<strong>مستشفى مروي العام</strong>.</p>
+            <p>أؤمن تماماً بأهمية التطوير الذاتي المستمر؛ فلدي العديد من الشهادات التدريبية من منصة إدراك، وأسعى بخطى ثابتة لتطوير مهاراتي والحصول على شهادات عالمية معتمدة في مجالي.</p>
+        </section>
+
+        <!-- المهارات -->
+        <section>
+            <h2>المهارات التقنية</h2>
+            <ul class="skills-list">
+                <li>الشبكات (Networks)</li>
+                <li>الأمن السيبراني (Cybersecurity)</li>
+                <li>أمن المعلومات (Information Security)</li>
+                <li>تطوير التطبيقات (Mobile & Web)</li>
+                <li>Python & JavaScript</li>
+                <li>العمل الجماعي وإدارة الفرق</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <!-- المشاريع -->
+        <section>
+            <h2>أبرز المشاريع</h2>
+            
+            <div class="project-card">
+                <h3>مراقبة شبكة كهرباء سد مروي</h3>
+                <p>نظام مخصص لمراقبة وتأمين بيئة الشبكات وأنظمة التحكم لضمان كفاءة وأمان تدفق البيانات.</p>
+                <a href="https://github.com/mnahlbabkrmhmdsyd-netizen" target="_blank" class="btn">عرض المشروع على GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>تطبيق الاستجابة للحرائق في الولاية الشمالية</h3>
+                <p>تطبيق استجابة للطوارئ وإدارة بلاغات الحرائق يربط الفرق الميدانية ويعتمد على خدمات الموقع لتسريع التدخل.</p>
+                <a href="https://github.com/mnahlbabkrmhmdsyd-netizen" target="_blank" class="btn">عرض المشروع على GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>تطبيق السوار الذكي (MediBand)</h3>
+                <p>نظام طبي يعتمد على السوار الذكي ورمز الاستجابة السريعة (QR Code) للوصول السريع والآمن للمعلومات الصحية للمرضى.</p>
+                <a href="https://github.com/mnahlbabkrmhmdsyd-netizen" target="_blank" class="btn">عرض المشروع على GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>نظام لإدارة المستشفى</h3>
+                <p>تنظيم إداري متكامل لإدارة أقسام المستشفى، المرضى، والبيانات بدقة وسهولة.</p>
+                <a href="https://github.com/mnahlbabkrmhmdsyd-netizen" target="_blank" class="btn">عرض المشروع على GitHub</a>
+            </div>
+            
+        </section>
+
+        <!-- التواصل -->
+        <section>
+            <h2>تواصل معي</h2>
+            <p>يسعدني تواصلك معي عبر منصات التوظيف والشبكات المهنية:</p>
+            <p>
+                🔗 <a href="https://www.linkedin.com/in/%D9%85%D9%86%D8%A7%D9%87%D9%84-%D8%A8%D8%A7%D8%A8%D9%83%D8%B1-%D9%85%D8%AD%D9%85%D8%AF-%D8%B3%D8%B9%D9%8A%D8%AF-45008741b" target="_blank">LinkedIn</a> | 
+                🐙 <a href="https://github.com/mnahlbabkrmhmdsyd-netizen" target="_blank">GitHub</a>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © 2026</p>
+    </footer>
+
+</body>
+</html>
